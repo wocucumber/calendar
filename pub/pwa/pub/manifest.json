@@ -1,0 +1,32 @@
+{
+  "name": "Galendar",
+  "short_name": "Galendar",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/pwa/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "screenshots": [
+    {
+      "src": "shot1.png",
+      "sizes": "1500x800",
+      "type": "image/png",
+      "platform": "wide",
+      "form_factor": "wide",
+      "label": "for wide devices"
+    },
+    {
+      "src": "shot2.png",
+      "sizes": "800x1400",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "for narrow devices"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Add event on Calendae///
+<form action="/api/v1/calendar/{{year}}/{{month}}/" method="post">
+    <input type="hidden" name="day" value="{{day}}">
+    <input type="hidden" name="type" value="add">
+    <div class="form-group">
+        <label for="title">タイトル</label>
+        <input type="text" name="title" id="title" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <input type="checkbox" name="all_time" id="all_time">
+        <label for="all_time">終日</label>
+    </div>
+
+    <div class="form-group">
+        <label for="from">開始時間</label>
+        <input type="time" name="from" id="from" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="to">終了時間</label>
+        <input type="time" name="to" id="to" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <input type="submit" value="追加" class="btn btn-primary">
+    </div>
+    
+</form>
+<br><br><br>
+<a href="/" class="btn btn-primary">戻る</a>
